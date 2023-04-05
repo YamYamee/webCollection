@@ -97,6 +97,63 @@ header .container {
 	height: 30px;
 	float:right;
 	display:block;
-	margin-right:10px;
+	margin-right:15px;
 	
+}
+
+main .container1{
+	background-color:#f8f8f8;
+	width: auto;
+	height: 1000px;
+	position: relative;
+	padding: 18px;
+}
+
+main aside {
+	width: 324px;
+    height: 455px;
+	float: left;
+}
+
+main aside form select{
+	width: 324px;
+    height: 33px;
+	border: solid 2px #bfbfbf;
+	padding: 5px;
+}
+
+main aside .current {
+	width: 324px;
+	height: 170px;
+	background-color: white;
+	margin-top: 5px;
+	border: solid 0.5px #bfbfbf;
+}
+
+main aside .current p {
+	font-weight: bold;
+    margin-top: 28px;
+    margin-left: 35px;
+    font-size: 20px;
+}
+
+main aside .choice {
+	width: 324px;
+	height: auto;
+	background-color: white;
+	margin-top: 5px;
+	border: solid 0.5px #bfbfbf;
+}
+
+main .table {
+	width: 1527px;
+	height: 500px;
+	float: left;
+	margin-left: 15px;
+}
+
+.table tr td{
+	width: 50px;
+	border: solid 0.5px #bfbfbf;
+	text-align: center;
 }
