@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/public/CSS.css" />
+		<title>에브리타임</title>
+		<link
+			rel="icon"
+			href="https://play-lh.googleusercontent.com/0oDBGRaLXdz92kZGHpCNts6KQUr38rG4uCTrV8_32WEyMy70tzC5CM5KbPk3yFoVrwM"
+		/>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="logo">
+					<img
+						src="https://play-lh.googleusercontent.com/0oDBGRaLXdz92kZGHpCNts6KQUr38rG4uCTrV8_32WEyMy70tzC5CM5KbPk3yFoVrwM"
+					/>
+					<p>
+						<span>에브리타임</span>
+						<span>예일대</span>
+					</p>
+				</div>
+
+				<div class="menu">
+					<ul>
+						<li><a href="/">게시판</a></li>
+						<li>
+							<a
+								href="https://web-develop-uxcio.run.goorm.site/Web_develop/EVERYTIMECLONE/HTML.html"
+								>시간표</a
+							>
+						</li>
+						<li><a href="/">강의실</a></li>
+						<li><a href="/">학점계산기</a></li>
+						<li><a href="/">친구</a></li>
+						<li><a href="/">책방</a></li>
+						<li><a href="/">캠퍼스픽</a></li>
+					</ul>
+				</div>
+
+				<div class="icon">
+					<img src="https://cdn-icons-png.flaticon.com/512/1159/1159740.png" />
+					<img src="https://cdn-icons-png.flaticon.com/512/66/66933.png" />
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<div class="container1">
+				<aside>
+					<form class="select">
+						<select id="semesters"
+							><option>2023년 겨울학기</option
+							><option>2023년 2학기</option
+							><option>2023년 여름학기</option
+							><option>2023년 1학기</option
+							><option>2022년 겨울학기</option
+							><option>2022년 2학기</option
+							><option>2022년 여름학기</option
+							><option>2022년 1학기</option
+							><option>2021년 겨울학기</option
+							><option>2021년 2학기</option
+							><option>2021년 여름학기</option
+							><option>2021년 1학기</option
+							><option>2020년 겨울학기</option
+							><option>2020년 2학기</option
+							><option>2020년 여름학기</option
+							><option>2020년 1학기</option
+							><option>2019년 겨울학기</option
+							><option>2019년 2학기</option
+							><option>2019년 여름학기</option
+							><option>2019년 1학기</option
+							><option>2018년 겨울학기</option
+							><option>2018년 2학기</option
+							><option>2018년 여름학기</option
+							><option>2018년 1학기</option
+							><option>2017년 겨울학기</option
+							><option>2017년 2학기</option
+							><option>2017년 여름학기</option
+							><option>2017년 1학기</option
+							><option>2016년 겨울학기</option
+							><option>2016년 2학기</option
+							><option>2016년 여름학기</option
+							><option>2016년 1학기</option
+							><option>2015년 겨울학기</option
+							><option>2015년 2학기</option
+							><option>2015년 여름학기</option
+							><option>2015년 1학기</option
+							><option>2014년 겨울학기</option
+							><option>2014년 2학기</option
+							><option>2014년 여름학기</option
+							><option>2014년 1학기</option
+							><option>2013년 겨울학기</option
+							><option>2013년 2학기</option
+							><option>2013년 여름학기</option
+							><option>2013년 1학기</option
+							><option>2012년 겨울학기</option
+							><option>2012년 2학기</option
+							><option>2012년 여름학기</option
+							><option>2012년 1학기</option
+							><option>2011년 겨울학기</option
+							><option>2011년 2학기</option
+							><option>2011년 여름학기</option
+							><option>2011년 1학기</option
+							><option>2010년 겨울학기</option
+							><option>2010년 2학기</option
+							><option>2010년 여름학기</option
+							><option>2010년 1학기</option></select
+						>
+					</form>
+					<div class="current">
+						<p>시간표 1</p>
+					</div>
+					<div class="choice">
+						<ul>
+							<a href=""
+								><li><span>시간표1</span></li></a
+							>
+							<a href=""
+								><li><span>시간표2</span></li></a
+							>
+							<a href=""
+								><li><span>시간표3</span></li></a
+							>
+							<a href=""
+								><li>
+									<span>
+										새 시간표 만들기
+									</span>
+								</li></a
+							>
+						</ul>
+					</div>
+				</aside>
+				<table id = "table">
+					<colgroup>
+						<col class="col1" />
+						<col class="col2" />
+						<col class="col3" />
+						<col class="col4" />
+						<col class="col5" />
+						<col class="col6" />
+						<col class="col7" />
+					</colgroup>
+					<tr class="thead">
+						<td></td>
+						<td>월</td>
+						<td>화</td>
+						<td>수</td>
+						<td>목</td>
+						<td>금</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>1교시</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>2교시</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>3교시</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>4교시</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>5교시</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>6교시</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>7교시</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>8교시</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>9교시</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>10교시</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>11교시</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>12교시</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>13교시</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>14교시</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>15교시</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</table>
+			</div>
+		</main>
+		<button class="button">
+			<p>
+				🔍수업 목록에서 검색
+			</p>
+		</button>
+		<button class="button2">
+			<p>
+				➕직접 추가
+			</p>
+		</button>
+
+		<div class="list">
+			<div class="head">
+				<div class="tag">
+					<div>태그1</div>
+					<div>태그2</div>
+					<div>태그3</div>
+					<div>태그4</div>
+					<div>태그5</div>
+					<div>태그6</div>
+					<div>태그7</div>
+					<button class="deleteButton">
+					닫기
+				</button>
+				</div>
+				<div class="lhead">
+					<div>학년</div>
+					<div>이수구분</div>
+					<div>과목번호-분반</div>
+					<div>과목명</div>
+					<div>담당교수</div>
+					<div>학점</div>
+					<div>시간</div>
+					<div>강의실/강의시간</div>
+					<div>강의평</div>
+					<div>담은인원</div>
+					<div>개설학과</div>
+					<div>유의사항</div>
+				</div>
+			</div>
+			
+			<div class="body">
+				<li>
+					<div>1학년</div>
+					<div>교양필수</div>
+					<div>49950-01</div>
+					<div>밥 빨리먹기</div>
+					<div>거북이와두루미</div>
+					<div>3학점</div>
+					<div>월 7 8</div>
+					<div>강의실/강의시간 310관 523호</div>
+					<div>멋짐</div>
+					<div>999</div>
+					<div></div>
+					<div>교수님이 사람이 아니에요</div>
+				</li>
+				
+			</div>
+		</div>
+		
+		<script src="/public/JS.js"></script>
+	</body>
+</html>
