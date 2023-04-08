@@ -1,0 +1,25 @@
+{
+  "name": "layoutstudy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/YamYamee/LayOutStudy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YamYamee/LayOutStudy/issues"
+  },
+  "homepage": "https://github.com/YamYamee/LayOutStudy#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^3.6.4",
+    "nodemon": "^2.0.22"
+  }
+}
